@@ -1366,3 +1366,71 @@ nav ul li a.active {
     outline: 2px solid white;
     outline-offset: 4px;
 }
+
+
+/* ===== LAST HAVEN PROJE KARTI ===== */
+
+.last-haven-card {
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Kartın üstündeki önizleme alanı */
+.last-haven-card .project-preview {
+    min-height: 70px;
+    background: #10243a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #e2e8f0;
+    font-size: 14px;
+}
+
+/* Kartın içerik alanı */
+.last-haven-card .project-content {
+    padding: 24px 22px;
+    text-align: left;
+}
+
+.last-haven-card h3 {
+    margin: 0 0 16px;
+    color: #f1f5f9;
+    font-size: 20px;
+}
+
+.last-haven-card p {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 0 20px;
+}
+
+/* Teknoloji etiketleri */
+.last-haven-card .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.last-haven-card .project-tags span {
+    background: #102e48;
+    color: #38bdf8;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+/* Projeyi İncele bağlantısı */
+.last-haven-card .project-view-btn {
+    display: inline-block;
+    color: #f1f5f9;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.last-haven-card .project-view-btn:hover {
+    color: #38bdf8;
+}
