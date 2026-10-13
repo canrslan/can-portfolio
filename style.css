@@ -1328,3 +1328,41 @@ nav ul li a.active {
         animation: none;
     }
 }
+
+
+/* ===== PROJEYİ İNCELE BUTONU ===== */
+
+.project-view-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    padding: 12px 24px;
+
+    background-color: #38bdf8;
+    color: #0f172a;
+
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    border: 1px solid #38bdf8;
+    border-radius: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.project-view-btn:hover {
+    background-color: transparent;
+    color: #38bdf8;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 20px rgba(56, 189, 248, 0.2);
+}
+
+.project-view-btn:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
